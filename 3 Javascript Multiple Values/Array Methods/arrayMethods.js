@@ -9,5 +9,6 @@ console.log(fruits.push("Banana"));
 
 //Splice is used to insert elements in between certain index
 
-fruits.splice(1, 0, "Litchi");
-console.log(fruits);
+// fruits.splice(1, 0, "Litchi");
+// console.log(fruits);
+
