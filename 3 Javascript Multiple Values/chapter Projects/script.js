@@ -49,20 +49,26 @@ theList[4] = "LAST";
 // structure.
 
 const items = [];
-const name = "The odin Project";
-const model = "2001";
-const cost = 2000;
-const quantity = 20;
 
-items.push(name);
-items.push(model);
-items.push(cost);
-items.push(quantity);
+const item3 = {
+  name: "computer",
+  model: "imac",
+  cost: 1000,
+  qty: 3,
+};
+const item2 = {
+  name: "phone",
+  model: "android",
+  cost: 500,
+  qty: 11,
+};
+const item1 = {
+  name: "tablet",
+  model: "ipad",
+  cost: 650,
+  qty: 1,
+};
 
-items[2] = 3000;
-// let com = name.concat(model).concat(cost).concat(quantity);
-// console.log(com);
+items.push(item1, item2, item3);
+
 console.log(items);
-// console.log(items[2]);
-
-console.log(items.length);
