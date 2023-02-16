@@ -53,10 +53,9 @@ console.log("negativeY:", negativeY, "becomes", Math.ceil(negativeY));
 // negativeX: -6.78 becomes -7
 // negativeY: -5.34 becomes -6
 
-
 //Trunc
-// trunc(). This gives the exact same result as floor() for 
-// positive numbers, but it gets to these results differently. It is not rounding down, it is 
+// trunc(). This gives the exact same result as floor() for
+// positive numbers, but it gets to these results differently. It is not rounding down, it is
 // simply only returning the integer part
 console.log("X:", x, "becomes", Math.trunc(x));
 console.log("Y:", y, "becomes", Math.trunc(y));
@@ -64,7 +63,7 @@ console.log("Y:", y, "becomes", Math.trunc(y));
 // X: 6.78 becomes 6
 // Y: 5.34 becomes 5
 
-// Exponent and logarithm 
+// Exponent and logarithm
 
 // The exponent is the number to which a base is being raised
 
@@ -74,17 +73,32 @@ console.log("Exp:", exp);
 let log = Math.log(exp);
 console.log("Log:", log);
 
-
 // Practice exercise 8.6
 // Experiment with the Math object with these steps:
 // 1. Output the value of PI into the console using Math.
-// 2. Using Math get the ceil() value of 5.7, get the floor() value of 5.7, get the 
+// 2. Using Math get the ceil() value of 5.7, get the floor() value of 5.7, get the
 // round value of 5.7, and output it into the console.
 // 3. Output a random value into the console.
 // 4. Use Math.floor() and Math.random() to get a number from 0 to 10.
 // 5. Use Math.floor() and Math.random() to get a number from 1 to 10.
 // 6. Use Math.floor() and Math.random() to get a number from 1 to 100.
 // 7. Create a function to generate a random number using the parameters of min
-// and max. Run that function 100 times, returning into the console a random 
+// and max. Run that function 100 times, returning into the console a random
 // number from 1 to 100 each time.
 
+
+
+console.log(Math.ceil(5.7));
+console.log(Math.floor(5.7));
+console.log(Math.round(5.7));
+console.log(Math.random());
+console.log(Math.floor(Math.random() * 10));
+console.log(Math.floor(Math.random() * 10)+1);
+console.log(Math.floor(Math.random() * 100)+1);
+
+function ranNum(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+for (let x = 0; x < 100; x++) {
+  console.log(ranNum(1, 100));
+}
