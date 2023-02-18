@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button onclick="reveal(this)">Click here!</button> -->
+    <button onclick="message(this)">Button 1</button>
+    <button onclick="message(this)">Button 2</button>
+
+    <script>
+      //   function reveal(el) {
+      //     // console.log(el);
+      //     console.log(el.parentElement);
+
+      //   }
+
+      function message(el) {
+        console.dir(el.textContent);
+      }
+    </script>
+  </body>
+</html>
+
+<!-- 
+The this keyword always has a relative meaning; it depends on the exact context 
+it is in. In the DOM, the special this keyword refers to the element of the DOM it 
+belongs to. If we specify an onclick to send this in as an argument, it will send in 
+the element the onclick is in -->
