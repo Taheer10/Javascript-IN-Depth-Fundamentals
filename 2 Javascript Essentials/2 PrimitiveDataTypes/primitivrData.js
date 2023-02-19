@@ -3,6 +3,8 @@
 // type does not need to be named explicitly. For example, if you declared a value of 5,
 // JavaScript will automatically define it as a number type.
 
+
+
 // JavaScript has seven primitives: String, Number, BigInt, Boolean, Symbol, undefined,
 // and null
 
@@ -69,3 +71,6 @@ console.log(def);
 
 let data = null;
 console.log(data);
+
+num =30;
+console.log(typeof(num));

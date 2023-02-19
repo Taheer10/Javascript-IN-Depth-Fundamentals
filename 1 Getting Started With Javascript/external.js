@@ -10,3 +10,4 @@ fsdsd */ //--Multiline comment
 
 console.log(Math.random()); //Generates  random number between 0 to 1
 console.log(Math.floor(Math.random() * 10)); //Math.floor removes the decimal value and prints integer values
+
