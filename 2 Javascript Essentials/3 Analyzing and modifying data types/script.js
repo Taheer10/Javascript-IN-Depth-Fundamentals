@@ -1,7 +1,7 @@
 // Analyzing and modifying data types
 
 let str = "Hello";
-let nr = 7;
+let number = 7;
 let bigNr = 12345678901234n;
 let bool = true;
 let sym = Symbol("unique");
@@ -9,7 +9,7 @@ let undef = undefined;
 let unknown = null;
 
 console.log("str", typeof str);
-console.log("nr", typeof nr);
+console.log("nr", typeof number);
 console.log("bigNr", typeof bigNr);
 console.log("bool", typeof bool);
 console.log("sym", typeof sym);
@@ -140,8 +140,8 @@ console.log(!(x < y)); //False
 //Chapter Project
 
 //Miles into Kilometers
-let mile = prompt("Enter the miles to converted to kilometers");
-let kilometer = mile * 1.6094;
-console.log(kilometer);
+// let mile = prompt("Enter the miles to converted to kilometers");
+// let kilometer = mile * 1.6094;
+// console.log(kilometer);
 
 //Bmi Calculations

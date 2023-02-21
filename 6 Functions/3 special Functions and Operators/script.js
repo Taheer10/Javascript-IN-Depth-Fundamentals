@@ -27,7 +27,7 @@ let doingArrowStuff = (x) => console.log(x);
 
 let spread = ["so", "much", "fun"];
 // console.log(`${...spread}`) //Cannot use spread operator inside template literal
-// console.log(`Javascript is funckin`,...spread);
+console.log(`Javascript is funckin`,...spread);
 // console.log(...spread);
 
 // function addTwoNumbers(x, y) {
